@@ -90,6 +90,45 @@
                     li 
                       i.fas.fa-check
                       p.text-white Instruir a los empleados sobre el tipo de situaciones en las que podrían revelar información confidencial sin darse cuenta.
+            .row.justify-content-center
+              .col-md-11.mb-4.mb-md-0
+                .row.justify-content-center
+                .col-sm.mb-5.mb-sm-0
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      p.text-white Explicar las sanciones por violar la política de la empresa.
+                    li 
+                      i.fas.fa-check
+                      p.text-white Hacer que los empleados firmen un acuerdo de no competencia y confidencialidad al momento de ser contratados.
+                    li 
+                      i.fas.fa-check
+                      p.text-white Recordar a los empleados que el producto del trabajo pertenece a la empresa, no a los empleados individuales.
+            .row.justify-content-center
+              .col-md-11.mb-4.mb-md-0
+                .row.justify-content-center
+                .col-sm.mb-5.mb-sm-0
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      p.text-white Establecer procedimientos para identificar y salvaguardar la información de propiedad de la empresa, por ejemplo, establecer contraseñas seguras para las computadoras y archivos, implementar mecanismos de criptográficos, contar con <i>software</i> integral de seguridad o un programa de prevención de pérdidas de datos o DLP <i>(Data Lost Prevention)</i>.
+                    li 
+                      i.fas.fa-check
+                      p.text-white Sensibilizar a todo el personal en la seguridad de la información de la empresa.
+            .row.justify-content-center
+              .col-md-11.mb-4.mb-md-0
+                .row.justify-content-center
+                .col-sm.mb-5.mb-sm-0
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      p.text-white Involucrar en las estrategias de seguridad a los agentes externos y proveedores.
+                    li 
+                      i.fas.fa-check
+                      p.text-white Dejar claro los mecanismos legales disponibles en caso de robo de secretos o fuga de información.
+                    li 
+                      i.fas.fa-check
+                      p.text-white Realizar monitoreo continuo de los controles implementados, gestión de datos y detectar falencias para corregirlas lo antes posible.
 
       .col-lg-5
         img(src='@/assets/curso/tema2/img3.png' alt='AvatarTop')

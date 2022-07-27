@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Gestión de la información y sus procesos.',
+    componenteFormativo: 'Gestión de la información y sus procesos',
     descripcionCurso:
       'Se abordan las temáticas correspondientes a los mecanismos de gestión documental desde el punto de vista del tratamiento de la información, almacenamiento e instrumentos, además reconociendo la importancia de la confidencialidad y custodia de la información,  igualmente las técnicas de archivo, procesos internos empresariales, implementación de acciones de mejora continua, contemplando los planes preventivos y correctivos que sean requeridos.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
@@ -139,38 +139,38 @@ export default {
   referencias: [
     {
       referencia:
-        'Agencia Presidencial de Cooperación APC-Colombia. (2017). Programa de gestión documental. APC-Colombia. ',
+        'Agencia Presidencial de Cooperación APC-Colombia. (2017). <i>Programa de gestión documental. APC-Colombia.</i> ',
       link:
         'https://www.apccolombia.gov.co/sites/default/files/archivos_usuario/2017/a-ot-009programagestiondocumentalv5.pdf',
     },
     {
       referencia:
-        'Archivo General de la Nación Colombia. (2015). Guía para la clasificación de la información de acuerdo con sus niveles de seguridad. Archivo General de la Nación. ',
+        'Archivo General de la Nación Colombia. (2015). <i>Guía para la clasificación de la información de acuerdo con sus niveles de seguridad. Archivo General de la Nación.</i> ',
       link:
         'https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/3_Transparencia/3.3%20Procesos%20y%20Procedimientos/GIT-G-01_GUIA_PARA_LA_CALIFICACI%C3%93N_DE_LA_INFORMACI%C3%93N_AGN.pdf',
     },
 
     {
       referencia:
-        'Departamento Nacional de Planeación DNP-Colombia. (2016). Criterios normativos para peticiones, quejas, reclamos, solicitudes y denuncias (PQRSD). DNP. ',
+        'Departamento Nacional de Planeación DNP-Colombia. (2016). <i>Criterios normativos para peticiones, quejas, reclamos, solicitudes y denuncias (PQRSD). DNP.</i> ',
       link:
         'https://colaboracion.dnp.gov.co/CDT/Programa%20Nacional%20del%20Servicio%20al%20Ciudadano/CRITERIOS%20NORMATIVOS%20PARA%20PQRSD%20V2.pdf',
     },
 
     {
       referencia:
-        'Federación Nacional de Departamentos FND-Colombia. (2021). Política de gestión documental. FND. ',
+        'Federación Nacional de Departamentos FND-Colombia. (2021). <i>Política de gestión documental. FND.</i> ',
       link:
         'https://www.fnd.org.co/docs/transparencia/gestion-documental/Pol%C3%ADtica%20Gesti%C3%B3n%20Documental%20.pdf',
     },
     {
       referencia:
-        'Heredia, A. (2008). Gestión de documentos y administración de archivos. CNB. ',
+        'Heredia, A. (2008). <i>Gestión de documentos y administración de archivos. CNB.</i> ',
       link: 'https://cnb.gov.co/ojs/index.php/codices/article/view/199/149',
     },
     {
       referencia:
-        'Martelo, R., Madera, J. y Betín, A. (2015). Software para gestión documental, un componente modular del sistema de gestión de seguridad de la información (SGSI). Scielo.',
+        'Martelo, R., Madera, J. y Betín, A. (2015). <i>Software para gestión documental, un componente modular del sistema de gestión de seguridad de la información (SGSI). Scielo.</i>',
       link: 'https://dx.doi.org/10.4067/S0718-07642015000200015',
     },
   ],
@@ -219,21 +219,21 @@ export default {
     {
       tema: 'Gestión documental',
       referencia:
-        'Didáctica Empresarial. (2020). Sistema de gestión documental [video]',
+        'Didáctica Empresarial. (2020). <i>Sistema de gestión documental</i> [video]',
       tipo: 'Video',
       link: 'https://youtu.be/uxLwxvnG2NY',
     },
     {
       tema: 'Confidencialidad y custodia de la información',
       referencia:
-        'Microvideos UTPL. (2017). Protección, cuidado y custodia de documentos (Gestión de la documentación) [video]',
+        'Microvideos UTPL. (2017). <i>Protección, cuidado y custodia de documentos (Gestión de la documentación)</i> [video]',
       tipo: 'Video',
       link: 'https://youtu.be/qhFSrajAYFQ      ',
     },
     {
       tema: 'Acciones de mejoramiento',
       referencia:
-        'Gestión & Formación. (2021). Acciones correctivas y preventivas [video].',
+        'Gestión & Formación. (2021). <i>Acciones correctivas y preventivas</i> [video].',
       tipo: 'Video',
       link: 'https://youtu.be/9Sc7JtubLg4',
     },
