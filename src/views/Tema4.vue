@@ -14,10 +14,10 @@
             .col-lg-11.mt-4
               .row
                 .col-lg-9
-                  p Por esto es necesario realizar el análisis e interpretación de información, acorde con el contexto organizacional, con el fin de proponer acciones de mejora en el tratamiento de la información, apalancado en la transformación digital que deben tener las empresas. En el siguiente video se entregan los elementos a considerar para este proceso de interpretación de información y proposición de acciones que aporten en la toma de decisiones:
+                  p Por esto es necesario realizar el análisis e interpretación de información, acorde con el contexto organizacional, con el fin de proponer acciones de mejora en el tratamiento de la información, apalancado en la transformación digital que deben tener las empresas. <strong>En el siguiente video se entregan los elementos a considerar para este proceso de interpretación de información y proposición de acciones que aporten en la toma de decisiones:</strong>
                 .col-lg-1
                 .col-lg-2
-                  img(src='@/assets/curso/tema3/img10.svg' alt='AvatarTop')
+                  img.qaq(src='@/assets/curso/tema3/img10.svg' alt='AvatarTop')
     .row.justify-content-center
       .col-lg-10
         figure.mb-5
@@ -43,50 +43,50 @@
 
       .col-lg-4
         img(src='@/assets/curso/tema3/img11.svg', alt='Texto que describa la imagen')
-    .row
+    .row.mt-2
       .col-lg-12
         .cajon-b.color-acento-contenido.p-3.mb-5
           p.mb-0 En caso de que tenga una nueva forma de mejorar cualquier proceso debe asegurar que la idea se convierta en realidad, por lo cual se necesita un plan de mejora de procesos bien definido, <strong>estos son los pasos para crear y argumentar uno:</strong>
     .tarjeta.tarjeta--gris.p-4.mb-5.baqw1
       LineaTiempoC.color-acento-contenido(text-small)
-        .row.justify-content-center.mb-5(titulo="Paso 1")
+        .row.justify-content-center.mb-5.align-items-center(titulo="Paso 1")
           .col-md-2
             figure
-              img(src='@/assets/curso/tema3/2.svg', alt='Texto que describa la imagen')
+              img.tamima(src='@/assets/curso/tema3/2.svg', alt='Texto que describa la imagen')
 
           
           .col-md-7.mb-4.mb-md-0.mt-4.b-5
             h3 Mapear el proceso
             p Identificar y seleccionar el proceso que necesita ser mejorado. Luego mapear visualmente los pasos existentes para ver el proceso como un todo, esto ayudará a encontrar áreas que tienen margen de mejora.
-        .row.justify-content-center.mb-5(titulo="Paso 2")
+        .row.justify-content-center.mb-5.align-items-center(titulo="Paso 2")
           .col-md-2
             figure
-              img(src='@/assets/curso/tema3/3.svg', alt='Texto que describa la imagen')
+              img.tamima(src='@/assets/curso/tema3/3.svg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0.mt-4.b-5
             h3 Analizar el proceso
             p Una vez que haya trazado el proceso, observe más de cerca los diferentes aspectos en cada paso. Tenga en cuenta las áreas en las que se producen problemas se producen retrasos o en las que se gasta mucho dinero. Uno de los aspectos más cruciales de esta sección es rastrear un problema hasta su origen. Se debe averiguar exactamente qué parte del proceso causa problemas para descubrir cómo solucionarlos.
-        .row.justify-content-center.mb-5(titulo="Paso 3")
+        .row.justify-content-center.mb-5.align-items-center(titulo="Paso 3")
           .col-md-2
             figure
-              img(src='@/assets/curso/tema3/1.svg', alt='Texto que describa la imagen')
+              img.tamima(src='@/assets/curso/tema3/1.svg', alt='Texto que describa la imagen')
 
           
           .col-md-7.mb-4.mb-md-0.mt-4
             h3 Rediseñar el proceso
             p Esto busca asegurar que tenga una comprensión profunda del proceso anterior y trabaje de manera efectiva en el nuevo, resolviendo las situaciones de mejora identificadas, el trabajo colaborativo aporta mucho en este ejercicio propositivo y de mejora.
-        .row.justify-content-center.mb-5(titulo="Paso 4")
+        .row.justify-content-center.mb-5.align-items-center(titulo="Paso 4")
           .col-md-2
             figure
-              img(src='@/assets/curso/tema3/5.svg', alt='Texto que describa la imagen')
+              img.tamima(src='@/assets/curso/tema3/5.svg', alt='Texto que describa la imagen')
           
           .col-md-7.mb-4.mb-md-0.mt-4
             h3 Redacta el plan
 
             p Cuando se elige una solución y se asignan los recursos es hora de crear un plan de implementación. Enumerar todas las tareas específicas en las que trabajará cada uno de los miembros del equipo y asigne otros recursos en consecuencia. La creación de un plan detallado de implementación del proceso garantiza que el plan se lleve a cabo hasta el final.
-        .row.justify-content-center.mb-5(titulo="Paso 5")
+        .row.justify-content-center.mb-5.align-items-center(titulo="Paso 5")
           .col-md-2
             figure
-              img(src='@/assets/curso/tema3/6.svg', alt='Texto que describa la imagen')
+              img.tamima(src='@/assets/curso/tema3/6.svg', alt='Texto que describa la imagen')
           
           .col-md-7.mb-4.mb-md-0.mt-4
             h3 Supervisar y optimizar

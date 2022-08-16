@@ -76,19 +76,19 @@
               .col-md-11.mb-4.mb-md-0
                 .row.justify-content-center
                   img.waq(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
-                .col-sm.mb-5.mb-sm-0
+                .col-sm.mb-5.mb-sm-0.mt-4
                   ul.lista-ul--color
                     li 
-                      i.fas.fa-check
-                      p.text-white Explicar a los empleados la necesidad de proteger ciertos tipos de información.
+                      i.fas.fa-check.am
+                      p.text-white.mb-0 Explicar a los empleados la necesidad de proteger ciertos tipos de información.
                     li 
-                      i.fas.fa-check
-                      p.text-white Definir el tipo de información que se está tratando de proteger.
+                      i.fas.fa-check.am
+                      p.text-white.mb-0 Definir el tipo de información que se está tratando de proteger.
                     li 
-                      i.fas.fa-check
-                      p.text-white Prohibir la difusión de información confidencial.
+                      i.fas.fa-check.am
+                      p.text-white.mb-0 Prohibir la difusión de información confidencial.
                     li 
-                      i.fas.fa-check
+                      i.fas.fa-check.am
                       p.text-white Instruir a los empleados sobre el tipo de situaciones en las que podrían revelar información confidencial sin darse cuenta.
             .row.justify-content-center
               .col-md-11.mb-4.mb-md-0
@@ -132,16 +132,16 @@
 
       .col-lg-5
         img(src='@/assets/curso/tema2/img3.png' alt='AvatarTop')
-    p Es necesaria la creación de una política de confidencialidad donde se especifique exactamente lo que está protegiendo y lo que considera confidencial, para evitar que los empleados actuales o anteriores afirmen más tarde que no se dieron cuenta de que la información que estaban usando, compartiendo, estaba protegida.
+    p.mt-3 Es necesaria la creación de una política de confidencialidad donde se especifique exactamente lo que está protegiendo y lo que considera confidencial, para evitar que los empleados actuales o anteriores afirmen más tarde que no se dieron cuenta de que la información que estaban usando, compartiendo, estaba protegida.
     .row
       .col-lg-8
         .cajon-b.color-primario.p-3.mb-5
           p.mb-0 Un acuerdo de no competencia o acuerdo de confidencialidad es un documento específico donde se expresan las cláusulas de prohibiciones que un empleado tiene respecto al manejo de la información y la responsabilidad que adquiere durante un período de tiempo dentro de una organización, este se utiliza para evitar que un empleado fugue o comparta la información confidencial de la empresa sin consentimiento. 
 
       .col-lg-1
-      .col-lg-1
-        img(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen')
-    p Este documento debe ser firmado desde el momento en que se realiza el contrato, y es una forma de proteger el tiempo, el dinero y los recursos de la empresa, dichos acuerdos son difíciles de hacer cumplir; pero también se debe reconocer que no todos los empleados necesitan firmar este acuerdo, pues el cargo y rol a desempeñar cuenta con el acceso a algún tipo de información confidencial, por lo que no sería necesario que el empleado firme dicho acuerdo.
+      .col-lg-1.mt-3
+        img.tc(src='@/assets/curso/tema2/img4.svg', alt='Texto que describa la imagen')
+    p.mt-2 Este documento debe ser firmado desde el momento en que se realiza el contrato, y es una forma de proteger el tiempo, el dinero y los recursos de la empresa, dichos acuerdos son difíciles de hacer cumplir; pero también se debe reconocer que no todos los empleados necesitan firmar este acuerdo, pues el cargo y rol a desempeñar cuenta con el acceso a algún tipo de información confidencial, por lo que no sería necesario que el empleado firme dicho acuerdo.
     .row.bac2.justify-content-center
       .col-lg-8.mt-5
         p.text-center <strong>Para ayudar a garantizar que las cláusulas de confidencialidad o acuerdo de no competencia sea aplicable se presentan las siguientes recomendaciones:</strong>
@@ -202,4 +202,12 @@ export default {
 .img-infografica__item__dot, .img-infografica-b__item__dot
   width: 57px
   padding-top: 400%
+  @media screen and ( max-width: 420px)
+    padding-top: 270%
+    width: 42px
+.img-infografica__item__numero, .img-infografica-b__item__numero
+  @media screen and ( max-width: 420px)
+    left: 130%
+.tarjeta.color-acento-contenido *
+  color: #1A1A52!important
 </style>

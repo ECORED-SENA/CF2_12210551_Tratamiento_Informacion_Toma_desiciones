@@ -88,22 +88,22 @@
                 ul.lista-ul--color
                   li 
                     i.fas.fa-check
-                    p Mejorar los procesos o métodos de trabajo.
+                    p.mb-0 Mejorar los procesos o métodos de trabajo.
 
                   li 
                     i.fas.fa-check
-                    p Optimización del flujo de trabajo.
+                    p.mb-0 Optimización del flujo de trabajo.
 
                   li 
                     i.fas.fa-check
-                    p Aumento de la eficiencia y la eficacia.
+                    p.mb-0 Aumento de la eficiencia y la eficacia.
 
                   li 
                     i.fas.fa-check
-                    p Encontrar formas rentables de corregir errores.
+                    p.mb-0 Encontrar formas rentables de corregir errores.
                   li 
                     i.fas.fa-check
-                    p Elementos de un plan de acción correctivo.
+                    p.mb-0 Elementos de un plan de acción correctivo.
                   li 
                     i.fas.fa-check
                     p Encontrar las causas raíces de una situación a mejorar, con el fin de implementar controles correctivos.
@@ -202,4 +202,18 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.slyder-a__bullets__item--active
+  background-color:#13B770!important
+  border-color:#13B770!important
+.slyder-a__bullets__item
+  background-color:#EECF52
+  border-color:#EECF52
+.img-infografica__item__dot, .img-infografica-b__item__dot
+  width: 50px
+  padding-top: 300%
+  color: white
+  @media screen and ( max-width: 420px)
+    width: 42px
+    padding-top: 200%
+</style>

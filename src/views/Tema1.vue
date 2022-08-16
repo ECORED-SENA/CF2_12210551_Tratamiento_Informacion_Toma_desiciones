@@ -59,13 +59,13 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Comprender cómo establecer y mantener correctamente un archivo digital es fundamental para mantener los documentos seguros, accesibles y adaptables a las necesidades empresariales. Las pequeñas empresas deben considerar cuidadosamente cada categoría para garantizar que las operaciones de la empresa se optimicen, que los archivos críticos se puedan recuperar fácilmente y que estén seguros. 
     .row.mt-5
-      .col-lg-9.mt-3
+      .col-lg-8.mt-3
         p Para establecer un archivo digital es necesario escanear los documentos o importar los registros existentes a un sistema centralizado. Los sistemas de gestión de documentos están diseñados para que resulte más fácil establecer y mantener un archivo digital completo de los registros que se necesitan.
         .cajon-b.color-primario.p-3.mb-5
           p.mb-0 Los registros se pueden escanear cuando se reciben, por ello se debe asignar a un empleado interno para que los escanee en lotes con una frecuencia acordada, que puede ir desde una vez al día hasta una vez al año.      
       .col-lg-3    
         img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
-    .row.bg1
+    .row.bg1.mt-2
       .col-lg-6
         img(src='@/assets/curso/tema1/img5.svg', alt='Texto que describa la imagen')
 
@@ -75,10 +75,13 @@
           p La mayoría de los sistemas de gestión de documentos utilizan lo que se conoce como reconocimiento óptico de caracteres para identificar e indexar automáticamente los documentos en función del contenido.
 
       p.mt-5 La tasa de precisión de cada programa depende de la calidad del documento que se ingresa al sistema. Si las páginas están manchadas o las imágenes están borrosas es posible que al programa le resulte más difícil reconocer la información. Si bien gran parte del proceso de digitalización se puede automatizar a través de imágenes de documentos, la precisión es esencial, por eso es necesario contar con documentos de calidad. 
+    
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
       h2 1.3. Instrumentos archivísticos
-    p Para asegurar que los documentos se capturen correctamente se debe establecer una <strong>"tasa de confianza personalizada”</strong> en el sistema de administración de documentos, lo que significa que el <i>software</i> solo acepta archivos que alcancen el umbral establecido, por ejemplo, si el <i>software</i> crea una imagen de un documento con una precisión del 90%; pero el índice de confianza personalizado es del 95%, ese documento no se aceptará sin una revisión y aprobación de forma manual.
+    p Para asegurar que los documentos se capturen correctamente se debe establecer una 
+      span.t1 <strong>"tasa de confianza personalizada”</strong> 
+      |  en el sistema de administración de documentos, lo que significa que el <i>software</i> solo acepta archivos que alcancen el umbral establecido, por ejemplo, si el <i>software</i> crea una imagen de un documento con una precisión del 90%; pero el índice de confianza personalizado es del 95%, ese documento no se aceptará sin una revisión y aprobación de forma manual.
     .row.justify-content-center
       .col-lg-8
         .row.mt-5.bg3
@@ -133,7 +136,7 @@
 
       .col-lg-3   
         img(src='@/assets/curso/tema1/img8.svg', alt='Texto que describa la imagen')
-    .row.justify-content-center
+    .row.justify-content-center.bg1
       .col-lg-6.mt-5
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
@@ -161,6 +164,65 @@
       .col-lg-3   
         img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen')
     p.mt-5 <strong>Existen tres cualidades indispensables en el personal que debe afrontar el área de atención al cliente:</strong>          
+    .row.mb-5.mt-5
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img
+              .row.justify-content-center
+                .col-lg-3
+                  img.neg(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
+                h3.text-center.mt-4.tb Asertividad
+              .row.justify-content-center
+                .col-lg-10
+                  img.mt-4(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen')
+
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h3.text-center.mt-4 Asertividad
+              p.mt-4.mb-5 es decir lo que piensa o siente a la persona adecuada en el momento adecuado, con las palabras adecuadas y en el tono adecuado.
+              .row.mt-5
+              .row.mt-5
+              .row.mt-5
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img
+              .row.justify-content-center
+                .col-lg-3
+                  img.neg(src='@/assets/curso/2.svg', alt='Texto que describa la imagen')
+                h3.text-center.mt-4.tb Empatía
+              .row.justify-content-center
+                .col-lg-11
+                  img.mt-4(src='@/assets/curso/avatar2.svg', alt='Texto que describa la imagen')
+
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h3.text-center.mt-4 Empatía
+              p.mt-4.mb-5 un miembro del servicio al cliente debe brindar calidez, lo que resulta en una relación amistosa con el cliente que lo escucha y se preocupa por sus necesidades y deseos.
+              .row.mt-5
+              .row.mt-5
+              .row.mt-5
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img
+              .row.justify-content-center
+                .col-lg-3
+                  img.neg(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
+                h3.text-center.mt-4.tb Escucha activa
+              .row.justify-content-center
+                .col-lg-9
+                  img.mt-4(src='@/assets/curso/avatar3.svg', alt='Texto que describa la imagen')
+
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h3.text-center.mt-4 Escucha activa
+              p.mt-4.mb-5 centrar la escucha en el mensaje y no en la persona, respondiendo claramente a dos estímulos sensoriales (lo que se ve y lo que se escucha), esto significa no tomar un lado emocional de las quejas o quejas de los clientes.
+              .row.mt-5
+              .row.mt-5
+              .row.mt-5
+    
     separador
     #t_1_5.titulo-segundo.color-acento-contenido
       h2 1.5 Informes y formatos
@@ -222,7 +284,7 @@ export default {
 .bloque-texto-g.color-acento-contenido
   background-color:#13B770
 .tarjeta.color-acento-botones
-  background-color: #DEE4F0
+  background-color: white
 .cajon-b:before
   bottom: 0%
   right: 76%
@@ -234,4 +296,6 @@ export default {
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .tarjeta--gris
     background-color: #E0FFF2
+.tarjeta-flip.color-primario .tarjeta-flip__img
+  background-color: #79DFEF
 </style>
