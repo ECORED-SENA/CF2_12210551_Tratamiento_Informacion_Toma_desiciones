@@ -179,6 +179,9 @@
                   img.mt-4(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen')
 
             .tarjeta-flip__contenido.p-4.p-xl-5
+              .row.justify-content-center
+                .col-lg-4
+                  img.neg2(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
               h3.text-center.mt-4 Asertividad
               p.mt-4.mb-5 es decir lo que piensa o siente a la persona adecuada en el momento adecuado, con las palabras adecuadas y en el tono adecuado.
               .row.mt-5
@@ -198,9 +201,11 @@
                   img.mt-4(src='@/assets/curso/avatar2.svg', alt='Texto que describa la imagen')
 
             .tarjeta-flip__contenido.p-4.p-xl-5
+              .row.justify-content-center
+                .col-lg-4
+                  img.neg2(src='@/assets/curso/2.svg', alt='Texto que describa la imagen')
               h3.text-center.mt-4 Empatía
               p.mt-4.mb-5 un miembro del servicio al cliente debe brindar calidez, lo que resulta en una relación amistosa con el cliente que lo escucha y se preocupa por sus necesidades y deseos.
-              .row.mt-5
               .row.mt-5
               .row.mt-5
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -217,9 +222,11 @@
                   img.mt-4(src='@/assets/curso/avatar3.svg', alt='Texto que describa la imagen')
 
             .tarjeta-flip__contenido.p-4.p-xl-5
+              .row.justify-content-center
+                .col-lg-4
+                  img.neg2(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
               h3.text-center.mt-4 Escucha activa
               p.mt-4.mb-5 centrar la escucha en el mensaje y no en la persona, respondiendo claramente a dos estímulos sensoriales (lo que se ve y lo que se escucha), esto significa no tomar un lado emocional de las quejas o quejas de los clientes.
-              .row.mt-5
               .row.mt-5
               .row.mt-5
     
@@ -298,4 +305,15 @@ export default {
     background-color: #E0FFF2
 .tarjeta-flip.color-primario .tarjeta-flip__img
   background-color: #79DFEF
+.img-infografica__item__numero, .img-infografica-b__item__numero
+  left: 200%
+.img-infografica__item__dot, .img-infografica-b__item__dot
+  width: 57px
+  padding-top: 400%
+  @media screen and ( max-width: 420px)
+    padding-top: 270%
+    width: 42px
+.img-infografica__item__numero, .img-infografica-b__item__numero
+  @media screen and ( max-width: 420px)
+    left: 130%
 </style>

@@ -131,4 +131,6 @@ export default {
   background-color: #E7F3FF
 .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
   background-color: #EECF52
+.cajon.color-acento-contenido
+  background-color: #E5FFF4
 </style>

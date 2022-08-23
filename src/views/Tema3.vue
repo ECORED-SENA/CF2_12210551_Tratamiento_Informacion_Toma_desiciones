@@ -115,7 +115,7 @@
             figure
               img(src='@/assets/curso/tema3/img12.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-botones.p-3.color2(x="49.5%" y="96%" numero="")
+          .tarjeta.color-acento-botones.p-3.color2(x="48%" y="96%" numero="")
 
             p <strong>Definir el problema</strong> es el primer elemento de un plan de acción correctivo y parte de la identificación del problema, partiendo del análisis de:  
             .col-sm.mb-5.mb-sm-0
@@ -135,19 +135,19 @@
                 li.mb-0  
                   i.fas.fa-check.color1
                   p.mb-0 Fechas de vencimiento.
-          .tarjeta.color-acento-botones.p-3.color2(x="49.5%" y="80%" numero="")
+          .tarjeta.color-acento-botones.p-3.color2(x="48%" y="80%" numero="")
 
             p <strong>La evaluación de riesgos</strong>  ayuda a estimar el nivel de riesgo de acciones particulares. Al crear un plan de acción correctivo las organizaciones usan su matriz de evaluación de riesgos para determinar la cantidad de riesgo para que puedan eliminar las acciones de alto riesgo. Revisar los riesgos también es útil al concluir el proceso de acción correctiva, ya que permite a las empresas determinar si las acciones ayudaron a resolver el problema o si deben comenzar el proceso nuevamente.
-          .tarjeta.color-acento-botones.p-3.color2(x="49.5%" y="63%" numero="")
+          .tarjeta.color-acento-botones.p-3.color2(x="48%" y="63%" numero="")
 
             p <strong>Causa principal:</strong>   para ayudar a encontrar una posible solución hay que encontrar la causa raíz del problema. Para este análisis hay una variedad de métodos y técnicas, como por ejemplo, el análisis de los cinco porqués, en el que se hace la pregunta "¿por qué?" para determinar qué está causando un problema. Para la queja del cliente sobre un artículo roto, la empresa podría analizar el porqué y descubrir que el cliente recibió un artículo roto porque la caja se cayó durante el envío.
-          .tarjeta.color-acento-botones.p-3.color2(x="49.5%" y="46%" numero="")
+          .tarjeta.color-acento-botones.p-3.color2(x="48%" y="46%" numero="")
 
             p <strong>Elementos de acción</strong>   sobre cómo la organización planea corregir el problema definido. Incluye detalles para ayudar a explicar qué hacer, cómo delinear el plan de corrección seleccionado. 
-          .tarjeta.color-acento-botones.p-3.color2(x="49.5%" y="29%" numero="")
+          .tarjeta.color-acento-botones.p-3.color2(x="48%" y="29%" numero="")
 
             p <strong>Partes interesadas,</strong>  durante la etapa de planificación de la acción correctiva se debe determinar quiénes son las partes interesadas. A menudo, estos son los clientes o empleados que se ven afectados. Las empresas a menudo se comunican con las partes interesadas lo antes posible para informarles qué soluciones planean implementar y cómo subsanar la situación.
-          .tarjeta.color-acento-botones.p-3.color2(x="49.5%" y="12%" numero="")
+          .tarjeta.color-acento-botones.p-3.color2(x="48%" y="12%" numero="")
 
             p <strong>Métricas para completar</strong>   los planes de acción correctiva y son la línea de base que la empresa debe alcanzar para considerar el problema resuelto, por ejemplo, la empresa que experimenta un cliente molesto por su artículo roto puede buscar tener un cliente satisfecho como su métrica de finalización.
 
@@ -216,4 +216,8 @@ export default {
   @media screen and ( max-width: 420px)
     width: 42px
     padding-top: 200%
+.cajon.color-acento-contenido
+  background-color: #E5FFF4
+.img-infografica__item__dot, .img-infografica-b__item__dot
+  opacity: 0
 </style>
