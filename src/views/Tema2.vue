@@ -152,23 +152,23 @@
               figure
                 img(src='@/assets/curso/tema2/img5.svg', alt='Texto que describa la imagen')
 
-            .tarjeta.color-acento-botones.p-3(x="-10%" y="80%" numero="1")
+            .tarjeta.color-acento-botones.p-3(x="-7%" y="80%" numero="1")
               p Debe ser redactado por un profesional del derecho, pues si alguna vez se tiene que hacer cumplir este documento, los tribunales lo examinarán detalladamente.
-            .tarjeta.color-acento-botones.p-3(x="3%" y="80%" numero="2")
+            .tarjeta.color-acento-botones.p-3(x="6%" y="80%" numero="2")
               p Asegurar que cumpla con la ley local aplicable y que se le dé suficiente consideración al empleado por firmar el acuerdo.
-            .tarjeta.color-acento-botones.p-3(x="15%" y="80%" numero="3")
+            .tarjeta.color-acento-botones.p-3(x="18%" y="80%" numero="3")
               p Si el acuerdo es parte del proceso de contratación, dar el trabajo al empleado es consideración suficiente para acordar abstenerse de trabajar para la competencia más adelante.
-            .tarjeta.color-acento-botones.p-3(x="28%" y="80%" numero="4")
+            .tarjeta.color-acento-botones.p-3(x="31%" y="80%" numero="4")
               p Si el contrato se firma más tarde, la promesa de un aumento de sueldo o un ascenso probablemente sea suficiente para su firma.
-            .tarjeta.color-acento-botones.p-3(x="42%" y="80%" numero="5")
+            .tarjeta.color-acento-botones.p-3(x="45%" y="80%" numero="5")
               p Se debe estructurar lo más específico posible, en general, solo es necesario relacionar aquellas restricciones que sean razonables para proteger los intereses legítimos o "protegibles" de una empresa.
-            .tarjeta.color-acento-botones.p-3(x="55%" y="80%" numero="6")
+            .tarjeta.color-acento-botones.p-3(x="58%" y="80%" numero="6")
               p Definir el interés legítimo o protegible de la empresa, sea específico en términos de equipo, información, tecnología, estrategia, prospectos de ventas y otra información de propiedad pertinente. 
-            .tarjeta.color-acento-botones.p-3(x="67%" y="80%" numero="7")
+            .tarjeta.color-acento-botones.p-3(x="70%" y="80%" numero="7")
               p Relacionar razonablemente las restricciones en tiempo y geográficas. No deben ser  demasiado amplias para que el acuerdo sea ejecutable.
-            .tarjeta.color-acento-botones.p-3(x="80%" y="80%" numero="8")
+            .tarjeta.color-acento-botones.p-3(x="83%" y="80%" numero="8")
               p Estructurar el acuerdo con miras a la aplicación parcial. Incluso si un tribunal considera que las restricciones son demasiado amplias se puede incluir una cláusula que diga que si una parte del acuerdo se considera inválida, el resto aún debe aplicarse. Esto puede brindarle cierta protección, aunque no es todo lo que requiere en el acuerdo.
-            .tarjeta.color-acento-botones.p-3(x="93%" y="80%" numero="9")
+            .tarjeta.color-acento-botones.p-3(x="96%" y="80%" numero="9")
               p No utilizar selectivamente dichos acuerdos. Hacer que todos los empleados en situaciones similares los firmen y asegurarse de que todos los empleados cumplan con los acuerdos que firmen.
 
 </template>

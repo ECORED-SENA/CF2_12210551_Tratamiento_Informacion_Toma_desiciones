@@ -165,67 +165,66 @@
         img(src='@/assets/curso/tema1/img10.svg', alt='Texto que describa la imagen')
     p.mt-5 <strong>Existen tres cualidades indispensables en el personal que debe afrontar el área de atención al cliente:</strong>          
     .row.mb-5.mt-5
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0.mt-4
+        .tarjeta.tarjeta-flip.color-primario.t1(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
               .row.justify-content-center
-                .col-lg-3
-                  img.neg(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
-                h3.text-center.mt-4.tb Asertividad
+                .col-lg-3.mt-5
+                .row.mt-5
+                h3.text-center.mt-5.tb Asertividad
               .row.justify-content-center
                 .col-lg-10
                   img.mt-4(src='@/assets/curso/avatar.svg', alt='Texto que describa la imagen')
 
             .tarjeta-flip__contenido.p-4.p-xl-5
               .row.justify-content-center
-                .col-lg-4
-                  img.neg2(src='@/assets/curso/1.svg', alt='Texto que describa la imagen')
-              h3.text-center.mt-4 Asertividad
+                .col-lg-4.mt-5
+              h3.text-center.mt-5 Asertividad
               p.mt-4.mb-5 es decir lo que piensa o siente a la persona adecuada en el momento adecuado, con las palabras adecuadas y en el tono adecuado.
               .row.mt-5
               .row.mt-5
               .row.mt-5
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0.mt-4
+        .tarjeta.tarjeta-flip.color-primario.t2(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
               .row.justify-content-center
-                .col-lg-3
-                  img.neg(src='@/assets/curso/2.svg', alt='Texto que describa la imagen')
+                .col-lg-3.mt-5
+                .row.mt-5
+                .row.mt-4
                 h3.text-center.mt-4.tb Empatía
               .row.justify-content-center
-                .col-lg-11
+                .col-lg-11.mt-4
                   img.mt-4(src='@/assets/curso/avatar2.svg', alt='Texto que describa la imagen')
 
             .tarjeta-flip__contenido.p-4.p-xl-5
               .row.justify-content-center
-                .col-lg-4
-                  img.neg2(src='@/assets/curso/2.svg', alt='Texto que describa la imagen')
-              h3.text-center.mt-4 Empatía
+                .col-lg-4.mt-5
+              h3.text-center.mt-5 Empatía
               p.mt-4.mb-5 un miembro del servicio al cliente debe brindar calidez, lo que resulta en una relación amistosa con el cliente que lo escucha y se preocupa por sus necesidades y deseos.
               .row.mt-5
               .row.mt-5
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0.mt-4
+        .tarjeta.tarjeta-flip.color-primario.t3(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img
               .row.justify-content-center
-                .col-lg-3
-                  img.neg(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
-                h3.text-center.mt-4.tb Escucha activa
+                .col-lg-3.mt-5
+                .row.mt-5
+                h3.text-center.mt-5.tb Escucha activa
               .row.justify-content-center
                 .col-lg-9
                   img.mt-4(src='@/assets/curso/avatar3.svg', alt='Texto que describa la imagen')
 
             .tarjeta-flip__contenido.p-4.p-xl-5
               .row.justify-content-center
-                .col-lg-4
-                  img.neg2(src='@/assets/curso/3.svg', alt='Texto que describa la imagen')
-              h3.text-center.mt-4 Escucha activa
+                .col-lg-5
+              .row.mt-5
+              h3.text-center.mt-5 Escucha activa
               p.mt-4.mb-5 centrar la escucha en el mensaje y no en la persona, respondiendo claramente a dos estímulos sensoriales (lo que se ve y lo que se escucha), esto significa no tomar un lado emocional de las quejas o quejas de los clientes.
               .row.mt-5
               .row.mt-5
@@ -316,4 +315,47 @@ export default {
 .img-infografica__item__numero, .img-infografica-b__item__numero
   @media screen and ( max-width: 420px)
     left: 130%
+
+.tarjeta-flip.color-primario.t1 .tarjeta-flip__img
+  background-image: url("../assets/curso/f1.svg") !important
+  background-color: transparent !important
+  background-repeat: no-repeat
+  border-radius: 30px
+  background-position: center
+
+.tarjeta-flip.color-primario.t1 .tarjeta-flip__contenido
+  background-image: url("../assets/curso/f11.svg") !important
+  background-position-x: -30px
+  background-repeat: no-repeat
+  background-color: transparent !important
+  border-radius: 30px
+  background-position: center
+.tarjeta-flip.color-primario.t2 .tarjeta-flip__img
+  background-image: url("../assets/curso/f22.svg") !important
+  background-color: transparent !important
+  background-repeat: no-repeat
+  border-radius: 30px
+  background-position: center
+
+.tarjeta-flip.color-primario.t2 .tarjeta-flip__contenido
+  background-image: url("../assets/curso/f2.svg") !important
+  background-position-x: -30px
+  background-repeat: no-repeat
+  background-color: transparent !important
+  border-radius: 30px
+  background-position: center
+.tarjeta-flip.color-primario.t3 .tarjeta-flip__img
+  background-image: url("../assets/curso/f3.svg") !important
+  background-color: transparent !important
+  background-repeat: no-repeat
+  border-radius: 30px
+  background-position: center
+
+.tarjeta-flip.color-primario.t3 .tarjeta-flip__contenido
+  background-image: url("../assets/curso/f33.svg") !important
+  background-position-x: -30px
+  background-repeat: no-repeat
+  background-color: transparent !important
+  border-radius: 30px
+  background-position: center
 </style>
