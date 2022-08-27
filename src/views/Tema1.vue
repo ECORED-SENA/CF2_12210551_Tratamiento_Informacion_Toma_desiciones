@@ -119,7 +119,7 @@
       .col-lg-10
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/qkGFrAdGX7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4 Atención de PQRS
@@ -127,7 +127,7 @@
       .col-lg-10
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/PSiBtkl75Hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p Dentro del área de atención al cliente existe una división especial encargada de atender las solicitudes, quejas, reclamos y sugerencias de los clientes, y es la responsable de generar la fidelización del mercado objetivo, haciendo que las ventas generen valor agregado, conectando estrechamente al comprador con los productos y servicios que ofrecen.
     .row
       .col-lg-8

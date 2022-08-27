@@ -11,7 +11,7 @@
       .col-lg-10
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/OC8x73OfV6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row
       .col-lg-6
         .cajon-b.color-primario.p-3.mb-5
@@ -111,7 +111,7 @@
                   ul.lista-ul--color
                     li 
                       i.fas.fa-check
-                      p.text-white Establecer procedimientos para identificar y salvaguardar la información de propiedad de la empresa, por ejemplo, establecer contraseñas seguras para las computadoras y archivos, implementar mecanismos de criptográficos, contar con <i>software</i> integral de seguridad o un programa de prevención de pérdidas de datos o DLP <i>(Data Lost Prevention)</i>.
+                      p.text-white Establecer procedimientos para identificar y salvaguardar la información de propiedad de la empresa, por ejemplo, establecer contraseñas seguras para las computadoras y archivos, implementar mecanismos criptográficos, contar con <i>software</i> integral de seguridad o un programa de prevención de pérdidas de datos o DLP <i>(Data Lost Prevention)</i>.
                     li 
                       i.fas.fa-check
                       p.text-white Sensibilizar a todo el personal en la seguridad de la información de la empresa.

@@ -22,7 +22,7 @@
       .col-lg-10
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/WRl5MNqvEeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p Los planes de mejora de procesos pueden ayudar a las empresas a identificar áreas de mejora potencial, planes de implementación y medidas de éxito, estos agregan eficiencia en los procesos, acciones y controles, además ayudan a la optimización de los tiempos para completar una tarea determinada.
     p <strong> Los beneficios de contar con un plan de mejora continua son: </strong>
     .row
@@ -64,7 +64,7 @@
               img.tamima(src='@/assets/curso/tema3/3.svg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0.mt-4.b-5
             h3 Analizar el proceso
-            p Una vez que haya trazado el proceso, observe más de cerca los diferentes aspectos en cada paso. Tenga en cuenta las áreas en las que se producen problemas se producen retrasos o en las que se gasta mucho dinero. Uno de los aspectos más cruciales de esta sección es rastrear un problema hasta su origen. Se debe averiguar exactamente qué parte del proceso causa problemas para descubrir cómo solucionarlos.
+            p Una vez que haya trazado el proceso, observe más de cerca los diferentes aspectos en cada paso. Tenga en cuenta las áreas en las que se producen problemas, se producen retrasos o en las que se gasta mucho dinero. Uno de los aspectos más cruciales de esta sección es rastrear un problema hasta su origen. Se debe averiguar exactamente qué parte del proceso causa problemas para descubrir cómo solucionarlos.
         .row.justify-content-center.mb-5.align-items-center(titulo="Paso 3")
           .col-md-2
             figure
