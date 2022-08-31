@@ -44,7 +44,7 @@
       .col-lg-10
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/3y_G7UbLbkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/PeVlTP8qLhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Almacenamiento de la información
